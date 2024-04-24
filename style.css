@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Single+Day&display=swap');  
+
+*, html, body, footer, header, ::-webkit-scrollbar, ::-webkit-scrollbar-thumb, button {
+    cursor: url("/assets/cursor.png"), auto !important;
+}
+
+* {
+    overflow-x: hidden;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+.autosiz {
+    width: auto;
+    height: auto;
+}
+
+.headfont {
+    font-family: "Single Day", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+::-webkit-scrollbar {
+    background-color: rgba(52, 216, 153, 0.685);
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgb(34, 207, 149);
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: rgb(0, 255, 170);
+}
+
+.light:hover {
+    transform: scale(1.1);
+    transition: 0.2s ease;
+}
+
+.lit-up:hover {
+    filter: brightness(2);
+}
